@@ -20,8 +20,6 @@ custom_formats:
   score: 280000
 - name: 1080p WEBRip
   score: 280000
-- name: 720p WEB-DL
-  score: 240000
 - name: 720p Bluray
   score: 180000
 - name: 720p WEBRip
@@ -195,6 +193,8 @@ custom_formats:
 - name: Xvid
   score: -999999
 custom_formats_radarr:
+- name: 720p WEB-DL
+  score: 240000
 - name: 1080p Balanced Tier 1
   score: 101000
 - name: 1080p Balanced Tier 2
@@ -222,6 +222,18 @@ custom_formats_radarr:
 - name: Upscale
   score: -999999
 custom_formats_sonarr:
+- name: 1080p WEB-DL HEVC Tier 1
+  score: 270000
+- name: 1080p HDTV
+  score: 250000
+- name: 720p WEB-DL
+  score: 200000
+- name: 1080p HDTV Tier 1
+  score: 80
+- name: 1080p HDTV Tier 2
+  score: 60
+- name: 1080p HDTV Tier 3
+  score: 40
 - name: Season Pack
   score: 10
 - name: Remux (Source)
@@ -242,6 +254,8 @@ qualities:
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
+- id: 12
+  name: HDTV-1080p
 - id: -2
   name: 720p Quality
   description: Fallback to 720p when 1080p cannot be found.
@@ -252,6 +266,8 @@ qualities:
     name: WEBDL-720p
   - id: 15
     name: WEBRip-720p
+- id: 16
+  name: HDTV-720p
 - id: -3
   name: 480p Quality
   description: Standard Definition Fallbacks
