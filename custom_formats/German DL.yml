@@ -1,5 +1,5 @@
 name: German DL
-description: ''
+description: 'Hard-block German Dual Language / Multi Language releases'
 tags:
 - Language
 conditions:
@@ -7,5 +7,5 @@ conditions:
   type: release_title
   required: true
   negate: false
-  pattern: German DL
+  pattern: '\b(GERMAN[ ._-][DM]L)\b'
 tests: []
