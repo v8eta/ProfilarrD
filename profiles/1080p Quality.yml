@@ -157,7 +157,7 @@ custom_formats:
 - name: ASL
   score: -999999
 - name: AV1
-  score: 20
+  score: 1000
 - name: Banned Groups
   score: -999999
 - name: Banned WEBRip
