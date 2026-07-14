@@ -1,0 +1,26 @@
+{
+  "name": "ProfilarrD",
+  "version": "2.0.0",
+  "description": "v8eta's fork of the Dictionarry custom-format database",
+  "arr_types": [
+    "radarr",
+    "sonarr"
+  ],
+  "dependencies": {
+    "https://github.com/Dictionarry-Hub/schema": "1.1.0"
+  },
+  "authors": [
+    {
+      "name": "v8eta"
+    }
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/v8eta/ProfilarrD",
+  "links": {
+    "homepage": "https://github.com/v8eta/ProfilarrD",
+    "issues": "https://github.com/v8eta/ProfilarrD/issues"
+  },
+  "profilarr": {
+    "minimum_version": "2.0.0"
+  }
+}
